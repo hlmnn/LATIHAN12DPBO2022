@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <title>To Do List</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WIW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <br />
+    <br />
+
+    <div class="container p-3">
+        <h1 class="text-center">Data Pasien</h1>
+        <div class="border border-secondary rounded p-3">
+            <form action="" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="key" value="">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="nik">NIK</label>
+                            <input type="number" class="form-control" name="nik" value="DATA_NIK" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" class="form-control" name="nama" value="DATA_NAMA" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="tempat">Tempat</label>
+                            <input type="text" class="form-control" name="tempat" value="DATA_TEMPAT" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="tl">Tanggal Lahir</label>
+                            <input type="date" class="form-control" name="tl" value="DATA_TL"required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="">Gender</label>
+                            <div id="radiobutton">
+                                <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="gender1" value="Laki-laki" DATA_GENDER required>
+                                <label class="form-check-label" for="inlineRadio1">Laki-laki</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="gender2" value="Perempuan" DATA_GENDER required>
+                                <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" value="DATA_EMAIL">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="telp">No Telepon</label>
+                            <input type="number" class="form-control" name="telp" value="DATA_TELP">
+                        </div>
+                    </div>
+                </div>
+                <a href="index.php"><button type="button" class="btn btn-secondary" name="cancel" style="margin-top: 10px;">Cancel</button></a>
+                <button type="Submit" class="btn btn-success" name="submit" id="submit"style="margin-top: 10px;">Submit</button>
+            </form>
+        </div>
+    </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+      
