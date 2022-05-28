@@ -16,7 +16,7 @@ Repository ini dibuat untuk memenuhi tugas Latihan 11 praktikum mata kuliah Desa
 
 4. Update
    
-  ![Update](https://github.com/hlmnn/LATIHAN11DPBO2LATIHAN12DPBO2022022/blob/master/Screenshot/update1.png)
+  ![Update](https://github.com/hlmnn/LATIHAN12DPBO2022/blob/master/Screenshot/update1.png)
   ![Update Setelah](https://github.com/hlmnn/LATIHAN12DPBO2022/blob/master/Screenshot/update2.png)
 
 5. Delete
